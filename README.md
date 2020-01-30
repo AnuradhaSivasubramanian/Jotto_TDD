@@ -23,7 +23,7 @@ To use the app:
 ```
 1. Fork and/or Clone repo.
 2. Run 'npm install' on your local repo so as to get the required dependencies.
-3. Launch application with 'npm run dev'.
+3. Launch application with 'npm start'.
 ```
 
 Have fun :)
