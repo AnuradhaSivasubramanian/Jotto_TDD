@@ -1,0 +1,32 @@
+.star article {
+  background-color: aqua;
+  color: red;
+}
+.star figcaption {
+  color: red;
+}
+.star img {
+  animation: glitter 2s linear 0s infinite normal;
+}
+@keyframes glitter {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+  25% {
+    -webkit-transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+  75% {
+    -webkit-transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+}
