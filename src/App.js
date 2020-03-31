@@ -1,6 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
-import Logger from "./components/Logger";
+
+class App extends Component {
+  render() {
+    return <div></div>;
+  }
+}
+
+export default App;
+
 // import { Switch, Route, NavLink } from "react-router-dom";
 // import HTML from "./components/HTML";
 // import CSS from "./components/CSS";
@@ -81,7 +89,3 @@ import Logger from "./components/Logger";
 //   );
 // }
 // export default App;
-function App() {
-  return <Logger />;
-}
-export default App;
